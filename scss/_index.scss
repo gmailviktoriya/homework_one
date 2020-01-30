@@ -1,0 +1,44 @@
+@mixin flexible () {
+  display: flex;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+  .btn {
+    color: white;
+    min-width: 150px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 50px;
+    user-select: none;
+    padding-left: 10px;
+    background-color: $primary-color;
+  }
+ 
+  .btn_white{
+    background-color: #ffffff;
+    color: $primary-color;
+  }
+  button {
+    background-color: $primary-color;
+    min-width: 150px;
+    border: none;
+    line-height: 50px;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+  }
+  .clearfloat {
+    clear: both;
+  }
+
+  
+  

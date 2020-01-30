@@ -1,38 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-        <header class="header">
-        <nav class="main-nav"> 
-            <ul>
-                <li class="main-nav_item"> <a href=""> Главная</a></li>
-                <li class="main-nav_item"> <a href="">Обо мне</a></li>
-                <li class="main-nav_item"> <a href="">Портфолио</a></li>
-                <li class="main-nav_item"> <a href="">Блог</a></li>
-                <li class="main-nav_item"> <a href="">Контакты</a></li>
-            </ul>
-        </nav>
-        <section class="selection main-selection">      
-             <h1 class="main-article_title">Сайт визитка</h1> 
+    <main class="profile">
+        <section class="section header_section">
+            <article class="header-articles header-articles_grey">
+                <ul class="header-article__list">
+                    <li class="header-article__item"> <a href="#" class="header-article__link"> Главная</a></li>
+                    <li class="header-article__item"> <a href="#" class="header-article__link">Обо мне</a></li>
+                    <li class="header-article__item"> <a href="#" class="header-article__link">Портфолио</a></li>
+                    <li class="header-article__item"> <a href="#" class="header-article__link">Блог</a></li>
+                    <li class="header-article__item"> <a href="#" class="header-article__link">Контакты</a></li>
+                </ul> 
+            </article>   
+            <h1 class="header-article_title">Сайт визитка</h1>  
         </section>
-    </header>
-<main>
- <section class="container">
-    <section class="section_text">
-            <article class="article_container_text">
-                <h2>О себе</h2>
+        <section class="section section-about">
+            <article class="about-article">
+                <h2 class="about-article_title">О себе</h2>
                     <p>Меня зовут Толокольникова Виктория Федоровна. Родилась я 26 мая, в городе Северодонецке. Закончила СШ №10. Получила высшее экономическое образование в Институте им. Даля. После изучала "Дизайн компьютерной графики"  в копьютерной академии ШАГ г.Луганск. Семейное положение: замужем. У меня двое сыновей: Арсений (11лет) и Савелий (1,3 годиков). Наша семья любит путешествовать, открывать для себя что-то новое.
                     </p>
             </article>
-            <article class="article_container_text">
-                <h2>Резюме</h2>
+            <article class="about-article">
+                <h2 class="about-article_title">Резюме</h2>
                    <p>Опыт трудовой деятельности:
                     С января 2007 – октябрь 2008, дизайнер , ЧП «Партнер». г. Северодонецк
                    Сфера деятельности: полиграфия.
@@ -42,75 +38,90 @@
                    С мая 2012 года по 2018 год - 3D Modeler в компании Bestway.
                     </p>
             </article>
-    </section>
-</section>
-<section class="container">
-    <h2 class="h_item">Мои работы</h2>
-    <section class="section_container_img">
-        <div class="align_img">
-            <img src="assete/image/im1a.jpg" alt="foto1"> 
-            <img src="assete/image/im2.jpg" alt="foto1"> 
-            <img src="assete/image/im3.jpg" alt="foto1"> 
-            <img src="assete/image/im4.jpg" alt="foto1"> 
-            <img src="assete/image/im5.jpg" alt="foto1"> 
-            <img src="assete/image/im5.jpg" alt="foto1"> 
-            <img src="assete/image/im5.jpg" alt="foto1"> 
-            <img src="assete/image/im5.jpg" alt="foto1"> 
-        </div> 
-        <section class="container_btn">
-            <button>
-                <span>read more</span>
-            </button>
-            <p> "Один из способов, чтобы научиться делать что-то правильно, это сделать сначала неправильно." – Джим Рон</p>
-       </section>
-    </section>
- </section>
-     <section class="container">
-        <article class="article_quote">
-             <img src="assete/image/c1_f.png" alt="foto1"> 
-             <p>“Единственный способ получать настоящее удовлетворение от работы – это делать её превосходно, осознавая это. А единственный способ делать свою работу превосходно – это любить ее. Если ты ещё не нашел свое любимое дело, продолжай искать.” – Стив Джобс</p>
-        </article> 
-        <article class="article_brend"> 
-            <section class="section_container_imgbrend">
-               <img src="assete/image/imegbrend1.jpg" alt="foto1">
-               <img src="assete/image/imegbrend1.jpg" alt="foto1">
-               <img src="assete/image/imegbrend1.jpg" alt="foto1">
-               <img src="assete/image/imegbrend1.jpg" alt="foto1">
-               <img src="assete/image/imegbrend1.jpg" alt="foto1">
-               <img src="assete/image/imegbrend1.jpg" alt="foto1">
-            </section>
-        </article>       
-    </section>
-</main>
-<div class="clearfloat"></div>
-<footer>
-    <section class="section_footer">
-        <section class="container_item">
-            <article class="article_footer">
-             <p>YOU THINK WE'RE COOL? LET'S WORK TOGETHER</p>
-                <section class="container_btn_white">
-                    <a href="" class="btnwhite">
-                        <span class="">get in touch</span>
-                    </a>
-                </section>
-            </article>
         </section>
-        <section class="section_container_white">     
-            <article class="article_footer_block">
-                <h3>STAY INFORMED WITH OUR NEWSLETTER</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <form action="#" method="POST">
-                    <div class=form>
-                        <input type="text" name="email">
-                        <span>your email</span>
+        <section class="section section-portfolio">
+            <h2 class="portfolio-article_title">Мои работы</h2>
+                <article class="portfolio-article_col">
+                    <div class="portfolio-article__block">
+                        <img src="assete/image/im1a.jpg" alt="foto1" class="portfolio_img"> 
                     </div>
-                    <button type="submit" class="form_btn">
-                      <span>sent</span>
-                    </button>
-              </form>
-            </article>
+                    <div class="portfolio-article__block">
+                        <img src="assete/image/im1a.jpg" alt="foto1" class="portfolio_img"> 
+                    </div>
+                    <div class="portfolio-article__block">
+                        <img src="assete/image/im1a.jpg" alt="foto1" class="portfolio_img"> 
+                    </div>
+                    <div class="portfolio-article__block">
+                        <img src="assete/image/im1a.jpg" alt="foto1" class="portfolio_img"> 
+                    </div>
+                </article>
+                <article class="portfolio-article_col">
+                    <div class="portfolio-article__block">
+                        <img src="assete/image/im1a.jpg" alt="foto1" class="portfolio_img"> 
+                    </div>
+                    <div class="portfolio-article__block">
+                        <img src="assete/image/im1a.jpg" alt="foto1" class="portfolio_img"> 
+                    </div>
+                    <div class="portfolio-article__block">
+                        <img src="assete/image/im1a.jpg" alt="foto1" class="portfolio_img"> 
+                    </div>
+                    <div class="portfolio-article__block">
+                        <img src="assete/image/im1a.jpg" alt="foto1" class="portfolio_img"> 
+                    </div>   
+                </article>
+                <article class="portfolio-article__greyblock">
+                    <p> "Один из способов, чтобы научиться делать что-то правильно, это сделать сначала неправильно." – Джим Рон</p> 
+                        <button class="portfolio-article_btn portfolio-article-btn_margin">
+                            <span>read more</span>
+                        </button>
+                </article>
         </section>
-    </section>
-</footer>
+        <section class="section section-quote">
+            <section class="article-quote">
+                <article class="article-quote_title"> 
+                    <img src="assete/image/c1_f.png" alt="foto1"> 
+                    <p>“Единственный способ получать настоящее удовлетворение от работы – это делать её превосходно, осознавая это. А единственный способ делать свою работу превосходно – это любить ее. Если ты ещё не нашел свое любимое дело, продолжай искать.” – Стив Джобс</p>
+                </article>
+                <article class="article-quote_image"> 
+                    <article class="article-quote_colon"> 
+                        <img src="assete/image/imegbrend1.jpg" alt="foto1" class="article-quote_img">
+                        <img src="assete/image/imegbrend1.jpg" alt="foto1" class="article-quote_img">
+                        <img src="assete/image/imegbrend1.jpg" alt="foto1" class="article-quote_img">   
+                    </article> 
+                    <article class="article-quote_colon"> 
+                            <img src="assete/image/imegbrend1.jpg" alt="foto1" class="article-quote_img">
+                            <img src="assete/image/imegbrend1.jpg" alt="foto1" class="article-quote_img">
+                            <img src="assete/image/imegbrend1.jpg" alt="foto1" class="article-quote_img">
+                    </article>
+                </article>   
+            </section>     
+        </section>
+            <div class="clearfloat"></div>
+        <section>
+            <section class="section section-footer">
+                <article class="footer">
+                    <div class="footer-col">
+                        <p class="footer-col_title">YOU THINK WE'RE COOL? LET'S WORK TOGETHER</p>
+                        <button class="btn btn_white">
+                            <span>get in touch</span >
+                        </button>
+                    </div>
+                    <div class="footer-col footer-col-white">
+                        <h1 class="footer-col-title-h">STAY INFORMED WITH OUR NEWSLETTER</h1>
+                        <p class="footer-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <form action="#" method="POST">
+                            <div class=footer-form>
+                                <input type="text" name="email">
+                                <span>your email</span>
+                            </div>
+                            <button type="submit" class="btn">
+                                <span>sent</span>
+                            </button>
+                        </form>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
 </body>
 </html>

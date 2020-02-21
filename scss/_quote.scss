@@ -1,0 +1,19 @@
+.article-quote{
+    @include flexible ();
+    text-align: center;
+    line-height: 35px;
+        &_title{
+            width: 50%;
+        }
+        &_image {
+            padding: 15px;
+            width: 50%;
+        }
+        &_img {
+            padding:15px;
+        }
+        &_colon{
+            @include flexible ();
+        }
+  }
+  

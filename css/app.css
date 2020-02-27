@@ -31,6 +31,13 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
 }
+.body_hide {
+	opacity: 0;
+	transition: .9s opacity ease-in-out;
+}
+.body_visible {
+	opacity: 1;
+}
 
 ol, ul {
   list-style: none;
@@ -45,12 +52,33 @@ q:before, q:after {
   content: "";
   content: none;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+.collapseexpand {
+  display: block;
+  padding-left: 70px;
+}
+.active,
+.btn:hover {
+    background-color: #a2e0cc;
+}
+.article-slide{
+  padding-left: 43px;
+  display: flex;
+}
+.btn_sl{
+height: 25px;
+line-height: 5px;
+margin-top: 150px;
+background-color:#b9b9b9 ;
+}
+.slide_img {
+  width: 980px;
+  height: 340px;
+  padding: 0 30px;
+}
 .title {
   font-weight: 700;
   font-size: 30px;
@@ -80,7 +108,6 @@ table {
 
 button {
   background-color: #7beec7;
-  min-width: 150px;
   border: none;
   line-height: 50px;
   cursor: pointer;
@@ -103,7 +130,7 @@ body {
 }
 
 .section {
-  padding: 15px;
+  padding: 15px 0;
 }
 
 .header_section {
@@ -137,8 +164,6 @@ body {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  padding-top: 170px;
-  padding-bottom: 170px;
 }
 
 .section-about {
@@ -184,7 +209,7 @@ body {
   background-color: #efeff0;
   margin: 15px 0 30px 14px;
   padding: 20px;
-  line-height: 90px;
+  line-height: 50px;
 }
 .portfolio-article_btn {
   color: white;
@@ -195,7 +220,6 @@ body {
   text-transform: uppercase;
   border-radius: 0;
   font-size: 14px;
-  height: 78px;
   cursor: pointer;
   line-height: 50px;
   user-select: none;

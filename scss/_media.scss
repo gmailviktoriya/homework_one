@@ -1,0 +1,63 @@
+@media screen and (max-width: 640px) {
+    .profile {
+      width: 1100px;
+    }
+    .header-article__item {
+      display: inline;
+      padding: 10px;
+      text-transform: uppercase;
+      font-family: "Montserrat", sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+  }
+    .section-about {
+        display: block;
+    }
+    p{
+        font-size: 30px;
+        line-height: 60px;
+    }
+    .portfolio_img {
+        width: 360px;
+    }
+    .portfolio-article_col{
+        display: block;
+        width: 500px;
+    }
+    .portfolio-article__block {
+        display: block;
+    }
+    .portfolio_img {
+        padding: 10px;
+        border-radius: 6px;
+        width: 600px;
+        float: none;
+        margin-left: 240px;
+    }
+    .article-quote {
+        display: block;
+        text-align: center;
+        line-height: 35px;
+        width: 100%;
+    }
+    .article-quote_title {
+        width: 100%;
+    }
+    .article-quote_image {
+        padding: 15px;
+        width: 100%;
+    }
+    .article-quote_colon {
+        display: inline-block;
+    }
+    .article-quote_img {
+        width: 300px;
+        padding: 25px;
+    }
+    .footer {
+        display: block;
+    }
+    .portfolio-article-btn_margin {
+        margin: 35px 20px 15px 80px;
+    }
+}
